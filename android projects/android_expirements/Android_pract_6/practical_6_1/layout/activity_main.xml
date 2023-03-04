@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   " />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Info" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                " />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sr no." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="                   " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                     " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="167dp"
+                android:layout_height="match_parent"
+                android:text="marks" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ronit" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="91.67%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2." />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hemil" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3." />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rohit" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="78%" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="4." />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pratham" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="86%" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5." />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vaibhav" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="86%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6." />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rajvardhan" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="91.11%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7." />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="varun" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="85%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8." />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="harsh v" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="89%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9." />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sahil" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10." />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aaron" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="76%" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
